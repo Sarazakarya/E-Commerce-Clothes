@@ -1,0 +1,46 @@
+.newLetter{
+    width: 87%;
+    height: 40vh;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 140px;
+    margin-bottom: 150px;
+    margin: auto;
+    gap: 30px;
+    background: linear-gradient(180deg,#fde1ff,#e1ffea22 60%);
+}
+.newLetter h1{
+    color: #454545;
+    font-size: 55px;
+    font-weight: 600;
+}
+.newLetter p{
+    color: #454545;
+    font-size: 22px;
+}
+.newLetter div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 730px;
+    height: 70px;
+    border-radius: 80px;
+    border: 1px solid #e3e3e3;
+}
+.newLetter input{
+    width: 500px;
+    margin-left: 30px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+.newLetter div button{
+   background-color: black;
+   color: white;
+   border-radius: 88px;
+   font-size: 16px;
+   width: 200px;
+   height: 70px;
+}

@@ -1,0 +1,66 @@
+.sign{
+    width: 100%;
+    height: 95vh;
+    background: #fce3fe;
+    padding-top: 70px;
+}
+.sign-cointer{
+    background-color: white;
+    width: 500px;
+    height: 700px;
+    margin: auto;
+    padding: 40px 60px;
+}
+.sign-cointer h1{
+    margin: 20px 0;
+}
+.sigin-felds{
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+    margin-top: 30px;
+}
+.sigin-felds input{
+    outline: none;
+    height: 72px;
+    width: 100%;
+    border: 1px solid #c9c9c9;
+    color: #5c5c5c;
+    font-size: 18px;
+    padding-left: 20px;
+}
+.sign-cointer button{
+    background-color: #ff4141;
+    width: 100%;
+    height: 72px;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.login-account{
+    margin-top: 20px;
+    font-size: 18px ;
+    font-weight: 500;
+    color: #5c5c5c;
+}
+.login-account a{
+    color: #ff4141;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+.sign-agree {
+    display: flex;
+    align-items: baseline;
+    font-size: 18px;
+    font-weight: 500;
+    color: #5c5c5c;
+    gap: 7px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+}
